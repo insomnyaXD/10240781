@@ -91,7 +91,6 @@ fun printFields(fields: Array<Array<CharArray>>, titles: Array<String>, showShip
 
     println()
 
-    // 3) строки данных для каждого поля
     for (r in 0 until size) {
         for (l in fields.indices) {
             print("$r  ")
