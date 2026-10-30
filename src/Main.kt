@@ -34,5 +34,5 @@ fun main() {
     player.printField()
     player.printStats()
 
-    printBothFields(player, enemy)
+    printBot hFields(player, enemy)
 }
