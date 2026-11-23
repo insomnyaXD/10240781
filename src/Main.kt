@@ -22,17 +22,8 @@ fun printBothFields(player: Player, enemy: Player) {
 }
 
 fun main() {
-    val player = Player()
-    val enemy = Player()
-    player.name = "Имя"
-    enemy.name = "Имя2"
+    val player = Player("Имя")
+    val enemy = Player("Имя2")
 
-    player.shots = 10
-    player.hits = 7
-    player.shipLeft = 20
-
-    player.printField()
-    player.printStats()
-
-    printBot hFields(player, enemy)
+    printBothFields(player, enemy)
 }
